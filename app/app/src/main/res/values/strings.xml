@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_the_best_recipes_in_the_world">Get the Best Recipes in the World</string>
+</resources>

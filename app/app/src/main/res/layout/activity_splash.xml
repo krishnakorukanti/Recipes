@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.SplashActivity">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/getStartedBtn"
+            />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:tabGravity="center"
+            android:background="@android:color/transparent"
+            app:tabBackground="@drawable/tab_pager_selector"
+            android:layout_above="@id/getStartedBtn"
+            app:tabIndicatorHeight="0dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="Get Started ->"
+            android:id="@+id/getStartedBtn"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textColor="@color/theme"
+            android:elevation="50dp"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"/>
+
+
+
+</RelativeLayout>
