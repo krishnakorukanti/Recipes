@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.crish.recipes.Adapter.FragmentAdapter;
-import com.crish.recipes.MainActivity;
 import com.crish.recipes.R;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
